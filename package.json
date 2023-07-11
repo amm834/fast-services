@@ -1,0 +1,19 @@
+{
+  "name": "fast-services",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "build": "turbo run build",
+    "dev": "turbo run dev --parallel"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "fast-gateway": "^3.4.5",
+    "turbo": "^1.10.7"
+  }
+}
